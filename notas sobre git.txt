@@ -1,0 +1,14 @@
+Publish to GitHub
+Esto directamente publica la carpeta de trabajo actual en un repositorio remoto
+en GitHub.
+Una vez aceptado que VSC abra GitHub, pide que elijas el tipo de repositorio que quieres
+ya inclutye el nombre del repositorio a crear igual al nombre de la carpeta local de trabajo.
+De modo que una vez elegido el tipo de repo (private/public) aparecen todos los archivos de la carpeta
+tildados por defecto. Aqui se elege si queremos publicar todos o destildar los que no se sincronizarán.
+
+
+Una vez hecho todo....se pega en el git bash lo siguiente: (estando parado en el master)
+git remote add origin https://github.com/rhdperez/bienesRaices.git
+git branch -M master
+git push -u origin master
+
