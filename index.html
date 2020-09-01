@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--(ESTA LIBRERRÍA HACE QUE TODOS LOS ELEMENTOS POR DEFAULT SE VEAN DE LA MISMA FORMA EN TODOS LOS NAVEGADORES)-->
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <!--colocar siempre mi hoja de estilos al final-->
+
+
+
+</head>
+
+<body>
+    <header class="site-header inicio">
+        <!--Esto es para identificar el estilo en el archivo styles.css, se porne con #-->
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <!--Esto es para que cuendo se se haga click en el logo valla a la página principal-->
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices.">
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+            <!--a este h1 se le aplica un css del archivo styles.css-->
+        </div>
+        <!--contenedor-->
+    </header>
+    <section class="contenedor seccion">
+        <!--al poner aca "contenedor aplico las propiedades de la clase"-->
+
+        <h2 class="fw300 centrar-texto">Más sobre nosotros</h2>
+
+        <div class="iconos-nosotros">
+            <!--esta clase sirve para el flexbox. Porque esta propiedad trabaja solo sobre los hijos del primer orden....es decir necesitamos pegarle a todos los div hijos por igual (estos se encuentran en el mismo orden)-->
+            <!--aca va la imagen del candadito-->
+            <div class="icono">
+                <img src="img/icono1.svg" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, deserunt nostrum. Harum impedit facilis, amet placeat ad sed id excepturi molestias ducimus, consectetur neque dolor quaerat eveniet adipisci expedita et?</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono Mejor Precio">
+                <h3>El mejor precio</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et culpa aliquid officiis, dignissimos at quod cupiditate doloremque pariatur nisi eaque, assumenda ut provident ex obcaecati? Veniam placeat quia esse fuga?</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono A Tiempo">
+                <h3>A Tiempo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perferendis tempora odit reprehenderit soluta nemo inventore sunt corrupti numquam adipisci alias, nulla maxime, ipsum vitae itaque laborum a animi consequuntur!</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="seccion contenedor">
+
+        <h2 class="fw300 centrar-texto">Casas y Depas en Venta</h2>
+        <!--aca se aplica al h2 un class que se identifica con un "." (punto) en los estilos-->
+
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="img/anuncio1.jpg" alt="Anuncio Casa en el lago">
+                <!--ACA EL "alt" sirve para dar un texto alternativo: en caso de que no se pueda mostrar laimagen en el navegado-->
+                <div class="contenido-anuncio">
+                    <h3>Casa de Lujo en el Lago</h3>
+                    <p>Casa en el Lago con excelente vista con acabados de lujo. Excelente Precio</p>
+                    <p class="precio">$3000000</p>
+
+                    <ul class="iconos iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <p>1</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <p>2</p>
+                        </li>
+                    </ul>
+
+
+                    <a href="#" class="boton boton-amarillo d-bloc">Ver Propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/anuncio2.jpg" width="500" alt="Anuncio Casa terminaciones de Lujo">
+                <div class="contenido-anuncio">
+                    <h3>Casa Terminados de Lujo</h3>
+                    <p>Casa con diseño moderno, así tecnología inteligente y amueblada </p>
+                    <p class="precio">$3000000</p>
+
+                    <ul class="iconos iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <p>1</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <p>2</p>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="boton boton-amarillo d-bloc">Ver Propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/anuncio3.jpg" alt="Anuncio Casa con alberca">
+                <div class="contenido-anuncio">
+                    <h3>Casa con alberca</h3>
+                    <p>Casa con alberca y acabados de lujo </p>
+                    <p class="precio">$2000000</p>
+
+                    <ul class="iconos iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <p>1</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono dormitorio">
+                            <p>2</p>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="boton boton-amarillo d-bloc">Ver Propiedad</a>
+                </div>
+            </div>
+        </div>
+        <div class="ver-todas">
+            <!--Solo aplica al boton "ver todas"-->
+            <a href="anuncios.html" class="boton boton-verde">Ver Todas</a>
+        </div>
+    </main>
+
+    <section class="imagen-contacto">
+        <!--Hacer secciones es para organización y -->
+        <div class="contenedor contenido-contacto">
+            <h2>Encuentra la casa de tu sueños</h2>
+            <p>Llena el formulario de contacto y un ascesor se pondrá en contacto con tigo a la bravedad</p>
+            <a href="contacto.html" class="boton boton-amarillo">Contactános</a>
+        </div>
+    </section>
+    <!--*******************blog***********-->
+    <div class="seccion-inferior contenedor">
+
+        <section class="blog">
+            <h3 class="centrar-texto fw300">Nuestro Blog</h3>
+
+            <article class="entrada-blog">
+                <!--separo imagen de texto con DIV-->
+                <div class="imagen">
+                    <img src="img/blog1.jpg" alt="Entrada de Blog">
+                </div>
+
+                <div class="texto-entrada">
+                    <a href="#">
+                        <h4>Terraza en el Techo de tu casa</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span> por: <span>Admin</span> </p>
+                    <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorro de dinero.</p>
+                </div class="imagen">
+            </article>
+
+            <article class="entrada-blog">
+                <div class="imagen">
+                    <img src="img/blog2.jpg" alt="Entrada de Blog2">
+                </div>
+
+                <div class="texto-entrada">
+                    <a href="#">
+                        <h4>Guía para la decoración de tu hogar</h4>
+                    </a>
+                    <p>Escrito el: <span>20/10/2019</span> por: <span>Admin</span></p>
+                    <p>Maximiza el espacio de tu hogar con esta guía, aprende a combinar muebles y colores para darle vida a tu espacio.</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="testimoniales">
+            <h3 class="centrar-texto fw300">Testimoniales</h3>
+            <div class="testimonial">
+                <blockquote>
+                    El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas.
+                </blockquote>
+                <p>- Daniel Perez</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+            </navclass="navegacion">
+    </footer>
+
+    <p>Todos los derechos reservados 2019</p>
+
+
+
+
+
+</body>
+
+</html>
