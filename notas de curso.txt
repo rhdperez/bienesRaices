@@ -1,0 +1,52 @@
+clase 35 - Normalize.css para aplicar hoja de estilos
+Varios navegadores en distintos dispositivos reacomodan los estilosa corde a su diseño.
+Aplicando "Normalize.css" como plantilla de estilos antes que la nuestra, logramos que por debajo de nuestros estilos se aplique una capa
+de normalizacion. Es decir, los estilos que queramos que esten por sobre todo se colocan al final de los estilos que se aplican
+en el "head".
+
+********************************************************
+clase 36-  rems
+emplea medidas "rem", como tipo estandar que se adapta a cualquier dispositivo. En vez de usar 2 px--2 rem
+El rem se calcula sobre la base de 16px. Los rems ganan escalabilidad a la hora de levantar en telefonos de alta resolucion.
+
+Como aplicar rem es complicado ya que es una proporcion del px. Se puede ajustr la proporcion de modo de tener mas facil
+la aplicacion de los rem. Por ej
+html{
+	font-size: 62.5%; /**reset para rems - 62.5% = 10px, en vez de 16px**/	
+
+	
+}
+
+Ahora es mas redondo. Por ej: 1.8rem = 18px, 2rem = 20px, y así.....
+******************************************************
+
+clase 37 (aplicando Flex-box)-->hace una nueva clase para separarlas cosas que hay en el header
+El flex aplica solo para los hijos del primer orden
+
+*****************
+Clase 46_---usando listas para iconos de anuncios....(cama, baño, cochera)
+-----
+Calse 47 -SECCIÓN 11_ CSS blog y testimoniales
+
+Se crean el blog y las testimoniales asignandoles una proporcion 60-40.
+Se asigna la clase "entrada-blog" para cada entrada de blog de modo de compartir el mismo css
+se divide la imagen del texto en cada caso (aplicando div-->uno para imagen y otro para el texto)
+Para aplicar flexBox a entrada blog-->hace falta aplicar el div....porque flexbox
+se aplica al primer nivel....tomaría los div. VER utilizaciónes de flexBox: https://desarrolloweb.com/articulos/propiedades-contenedor-flexbox.html#:~:text=Propiedad%20flex%2Dwrap,la%20horizontal%2C%20en%20una%20fila.
+
+
+Cada parte del flexbox de determina "flex item"
+Al contenedor principal en un esquema Flexbox es al que le asignamos "display: flex". Esta propiedad hace que cambien las reglas con las cuales sus hijos van a ser representados en la página.
+
+
+clase 48--finalizando el blog
+poniendo detalles de css al blog (textos)
+agragar pseudoelementos/pseudoclases ::, (ver mds mozilla)
+
+clase 49 - Terminando "Testimoniales"
+utiliza pseudoelemnto "before" para crear las comillas blancas. "Los pseudoelementos no pueden seleccionarse en la pagina"
+tb crea el fondo verde, le da bordes redondeados
+
+clase 50 - Termina
+
+clase 51 - "Nosotros"
