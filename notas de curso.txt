@@ -50,3 +50,14 @@ tb crea el fondo verde, le da bordes redondeados
 clase 50 - Termina
 
 clase 51 - "Nosotros"
+para sacar texto simulado (para los parrafos): https://es.lipsum.com/
+Crea el maquetado con html de la página "nosotros". reutiliza código que ya estaba en el index.
+
+clase 52 - Nosotros
+Se utiliza Display Grid (alternativa para flex)
+Se define al layout en columnas: 50% para imagen y 50% para texto. Divide segun la cantidad de hijos
+que tenga la clase padre.
+Tener en cuenta: se utiliza padding: A D A I para centrar el texto de la coluymna izquierda.
+
+clase 53 - Anuncios
+

@@ -1,15 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--(ESTA LIBRERRÍA HACE QUE TODOS LOS ELEMENTOS POR DEFAULT SE VEAN DE LA MISMA FORMA EN TODOS LOS NAVEGADORES)-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--colocar siempre mi hoja de estilos al final-->
 </head>
-<body>
-    
-    <h1>NOSOTROS</h1>
+<!--Acá el main le indica al explorador cual es la parte princilpal de la página-->
+<main class="contenedor">
+    <h1 class="fw300 centrar-texto">Conoce sobre nosotros</h1>
 
-    <a href="index.html">Volver</a>
+    <div class="contenido-nosotros">
+        <div class="imagen">
+            <img src="img/nosotros.jpg" alt="Imagen sobre Nosotros">
+        </div>
+
+        <div class="texto-nosotros">
+            <blockquote>25 Años de Experiencia</blockquote>
+
+            <p>Ut condimentum augue in urna egestas blandit. Morbi eget justo ex. Nam auctor est nec elementum suscipit. Fusce nec lacus ac purus semper porttitor. Nullam pellentesque vestibulum ipsum. Integer eu ligula dui. Suspendisse ipsum sem, sagittis
+                sed lorem et, condimentum molestie nisi. Vestibulum eu velit aliquam, elementum nulla sed, sollicitudin magna. In eu mi elit. Etiam fringilla quis libero sit amet tincidunt. Morbi sed tellus sit amet nunc feugiat bibendum eget a velit.
+                Maecenas varius lobortis augue eu tincidunt. Duis maximus maximus lobortis. Morbi nec sollicitudin ipsum, in lobortis odio. Quisque non ornare velit. Nullam massa arcu, posuere dignissim sollicitudin id, consectetur vitae eros. In feugiat
+                arcu lacinia sem molestie tempus.
+            </p>
+
+            <p>Ut condimentum augue in urna egestas blandit. Morbi eget justo ex. Nam auctor est nec elementum suscipit. Fusce nec lacus ac purus semper porttitor. Nullam pellentesque vestibulum ipsum. Integer eu ligula dui. Suspendisse ipsum sem, sagittis
+                sed lorem et, condimentum molestie nisi. Vestibulum eu velit aliquam, elementum nulla sed, sollicitudin magna. In eu mi elit. Etiam fringilla quis libero sit amet tincidunt. Morbi sed tellus sit amet nunc feugiat bibendum eget a velit.
+                Maecenas varius lobortis augue eu tincidunt. Duis maximus maximus lobortis. Morbi nec sollicitudin ipsum, in lobortis odio. Quisque non ornare velit. Nullam massa arcu, posuere dignissim sollicitudin id, consectetur vitae eros. In feugiat
+                arcu lacinia sem molestie tempus.
+            </p>
+
+
+        </div>
+    </div>
+</main>
+
+<section class="contenedor seccion">
+    <!--al poner aca "contenedor aplico las propiedades de la clase"-->
+
+    <h2 class="fw300 centrar-texto">Más sobre nosotros</h2>
+
+    <div class="iconos-nosotros">
+        <!--esta clase sirve para el flexbox. Porque esta propiedad trabaja solo sobre los hijos del primer orden....es decir necesitamos pegarle a todos los div hijos por igual (estos se encuentran en el mismo orden)-->
+        <!--aca va la imagen del candadito-->
+        <div class="icono">
+            <img src="img/icono1.svg" alt="Icono Seguridad">
+            <h3>Seguridad</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, deserunt nostrum. Harum impedit facilis, amet placeat ad sed id excepturi molestias ducimus, consectetur neque dolor quaerat eveniet adipisci expedita et?</p>
+        </div>
+
+        <div class="icono">
+            <img src="img/icono2.svg" alt="Icono Mejor Precio">
+            <h3>El mejor precio</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et culpa aliquid officiis, dignissimos at quod cupiditate doloremque pariatur nisi eaque, assumenda ut provident ex obcaecati? Veniam placeat quia esse fuga?</p>
+        </div>
+
+        <div class="icono">
+            <img src="img/icono3.svg" alt="Icono A Tiempo">
+            <h3>A Tiempo</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perferendis tempora odit reprehenderit soluta nemo inventore sunt corrupti numquam adipisci alias, nulla maxime, ipsum vitae itaque laborum a animi consequuntur!</p>
+        </div>
+    </div>
+</section>
+
+
+<body>
+    <header class="site-header">
+        <!--Esto es para identificar el estilo en el archivo styles.css, se porne con #-->
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <!--Esto es para que cuendo se se haga click en el logo valla a la página principal-->
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices.">
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+        </div>
+        <!--contenedor-->
+    </header>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>">
+            <p class="copyright">Todos los derechos reservados 2019 &copy;</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

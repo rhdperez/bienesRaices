@@ -368,3 +368,23 @@ h4 {
     margin: 0;
     color: #ffffff;
 }
+
+
+/**Páginas internas**/
+
+.contenido-nosotros {
+    /**utiliza display grid en vez de flex. Con 3 lineas de código se puede centrar el texto**/
+    display: grid;
+    /**define al layout en columnas 50 y 50. Porque hay 2 secciones hijo en la clase: imagen y texto**/
+    grid-template-columns: repeat(2, 1fr);
+    /**grid agrega gap en vez de margin**/
+    grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    /**paddig: arriba derecha abajo izquierda**/
+    padding: 1rem 0 3rem 0;
+}
