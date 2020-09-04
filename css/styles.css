@@ -340,8 +340,31 @@ h4 {
     /**una vez seleccionada la imagen hay que decirle los tamaños**/
     width: 4rem;
     height: 4rem;
-    display: block;
+    position: absolute;
+    left: -2rem;
+}
+
+.testimonial blockquote {
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
 }
 
 
-/**este comentario se agrega**/
+/**footer**/
+
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+
+.contenedor-footer {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 0;
+    color: #ffffff;
+}
