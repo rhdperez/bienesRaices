@@ -95,6 +95,12 @@ h4 {
 
 /** header**/
 
+.site-header {
+    /**esto solo aplica para la cabecera en cada pag (anuncio, nosotros, etc...)**/
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
 .site-header.inicio {
     background-image: url(../img/header.jpg);
     background-position: center center;
@@ -166,12 +172,20 @@ h4 {
 .contenedor-anuncios {
     display: flex;
     justify-content: space-between;
+    /**aca abajo se define para Anuncios**/
+    flex-wrap: wrap;
 }
 
 .anuncio {
-    flex-basis: calc(33.3% - 1rem);
+    /**aca son modificaciones para la página Anuncios**/
+    flex: 0 0 calc(33.3% - 1rem);
+    /**flex-grow: 0 (es el 1°);**/
+    /**flex-shrink: 0 (es el 2°)**/
+    margin-bottom: 2rem;
+    /**de aca para abajo aplica para los anuncios en general**/
+    /**flex-basis: calc(33.3% - 1rem) -->es el 3° en la propiedad flex**/
     border-style: solid;
-    border-color: bisque;
+    border-color: #b5b5b5;
     border-width: 1px;
     background-color: #f5f5f5;
 }
@@ -372,6 +386,9 @@ h4 {
 
 /**Páginas internas**/
 
+
+/**Nosotros**/
+
 .contenido-nosotros {
     /**utiliza display grid en vez de flex. Con 3 lineas de código se puede centrar el texto**/
     display: grid;
@@ -388,3 +405,6 @@ h4 {
     /**paddig: arriba derecha abajo izquierda**/
     padding: 1rem 0 3rem 0;
 }
+
+
+/**Anuncios**/

@@ -1,3 +1,15 @@
+PASOS PARA SINCRONIZAR LA CONFIGURACION DE VSC EN OTRA PC DESDE CERO
+La extension se llama Setting Sync: con esto se pueden crear perfiles de usuario en VSC y se cargaran 
+las extensiones de cada perfil.
+Se puede tb tener la configuración remota a traves de gitHub
+
+https://www.youtube.com/watch?v=Re88AD3eG28
+
+
+
+
+
+
 PASOS GITHUB - VSC
 Importante: la rama remota llamada origin se crea en un repositorio remoto.
 La tecnología subyacente es Git y es lo que se maneja localemente,
