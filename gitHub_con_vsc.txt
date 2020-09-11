@@ -97,3 +97,6 @@ git pull
 etc
 
 Cuando hago modificación
+1 add-->le doy en el "signo +" a las modificaciónes señalasdas en la columna del source control
+2 le doy a "commit"
+3 Abro terminal: "git push"
