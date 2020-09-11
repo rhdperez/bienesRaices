@@ -59,5 +59,12 @@ Se define al layout en columnas: 50% para imagen y 50% para texto. Divide segun 
 que tenga la clase padre.
 Tener en cuenta: se utiliza padding: A D A I para centrar el texto de la coluymna izquierda.
 
-clase 53 - Anuncios
+clase 53 - página de todos los anuncios--->"anuncios.html"
+Copia de nosotros
 
+clase 54 - crando cada uno de los anuncios--->"anuncio.html"
+Se coloca la referencia (href) a "anuncio" en el boton amarillo de "anuncios".
+
+clase 55 - Blog
+
+Clase 56 - Crea Contacto y Formularios

@@ -70,6 +70,10 @@ h4 {
     display: block!important;
 }
 
+.contenido-centrado {
+    max-width: 800px;
+}
+
 
 /**Botones**/
 
@@ -219,6 +223,10 @@ h4 {
     /**alinea los elementos hijos ("los li") uno al lado de otros**/
     justify-content: space-evenly;
     /**centra cada cosa**/
+    /**y para que se separen los dibujitos**/
+    flex: 1;
+    /**limita todo a la utilización de 500 px**/
+    max-width: 500px;
 }
 
 .iconos-caracteristicas li {
@@ -407,4 +415,12 @@ h4 {
 }
 
 
-/**Anuncios**/
+/**Anuncio**/
+
+.resumen-propiedad {
+    display: flex;
+    /**alineación horizontal**/
+    justify-content: space-between;
+    /**alineacion vertical**/
+    align-items: center;
+}
