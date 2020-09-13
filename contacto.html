@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--(ESTA LIBRERRÍA HACE QUE TODOS LOS ELEMENTOS POR DEFAULT SE VEAN DE LA MISMA FORMA EN TODOS LOS NAVEGADORES)-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--colocar siempre mi hoja de estilos al final-->
 </head>
+
+<header class="site-header">
+    <!--Esto es para identificar el estilo en el archivo styles.css, se porne con #-->
+    <div class="contenedor contenido-header">
+        <div class="barra">
+            <a href="/">
+                <!--Esto es para que cuendo se se haga click en el logo valla a la página principal-->
+                <img src="img/logo.svg" alt="Logotipo de Bienes Raices.">
+            </a>
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </div>
+    <!--contenedor-->
+</header>
+
+<h1 class="fw300 centrar-texto">Contacto</h1>
+
+<img src="img/destacada3.jpg" alt="Imagen Principal">
+
+<main class="contenedor seccion contenido-centrado">
+    <h2 class="fw300 centrar-texto">Llena el formulario para que te contactémos</h2>
+
+    <form action="">
+
+        <fieldset>
+
+            <legend>Información Personal</legend>
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="Tu Nombre">
+
+            <label for="email">email: </label>
+            <input type="email" id="email" placeholder="Tu Correo electrónico" required>
+
+            <label for="telefono">Telefono: </label>
+            <input type="tel" id="telefono" placeholder="Tu Telefono" required>
+
+            <label for="mensaje">Mensaje: </label>
+            <textarea name="mensaje"></textarea>
+
+            <input type="submit">
+
+        </fieldset>
+        <legend>Información sobre propiedad</legend>
+        <label for="opciones">Vende o Compra</label>
+        <select id="opciones">
+            <option value="" disabled selected>-- Seleccione --</option>
+            <option value="">Compra</option>
+            <option value="">Vende</option>
+        </select>
+
+
+        <fieldset>
+            <legend>Contacto</legend>
+
+        </fieldset>
+
+
+
+    </form>
+</main>
+
+
 <body>
-    <h1>Contacto</h1>
-    <a href="index.html">Volver</a>
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>">
+            <p class="copyright">Todos los derechos reservados 2019 &copy;</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

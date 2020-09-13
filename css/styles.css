@@ -424,3 +424,10 @@ h4 {
     /**alineacion vertical**/
     align-items: center;
 }
+
+
+/**contacto**/
+
+label {
+    display: block;
+}
