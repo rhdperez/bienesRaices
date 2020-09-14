@@ -68,3 +68,47 @@ Se coloca la referencia (href) a "anuncio" en el boton amarillo de "anuncios".
 clase 55 - Blog
 
 Clase 56 - Crea Contacto y Formularios
+
+Clase 60 - COntacto:
+utilización de radiobuton (elige una u otra opc), checkbox (se pueden elegir mas de una), selected (lista de opciones: se elige una)
+
+Clase 62: Estilos a Contactos
+Una forma de darle estilos a todos los inputs es 
+input[type="text"],
+input[type="email"] {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+esto tiene el problema que debemos agregar la entrada según el typo que corresponda: y podemos tener varios
+Alternativa: decirle que le pegue al input--->aca le pega al boton "Enviar"(no queremos esto)
+Entonces se le indica que le peguea "todos los input menos a":
+
+input:not([type="submit"]) {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+tambien se le aplica al textArea, agregandolo:
+input:not([type="submit"]),
+textarea {
+
+
+Se termina.......
+
+Clase 64..Publicando el proyecto en un servidor: netlify.com (gratis)
+Se arrastra la carpeta del proyecto....al espacio para adjuntar.
+
+Clase 65. Responsive Web Design
+--_>hacer el proyecto responsivo--->que se adapte a un movil, tablet, etc
+Utilizo: "Media Queries"
+
